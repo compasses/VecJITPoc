@@ -36,9 +36,10 @@ codegen技术有多种实现方式，例如动态的生成源码然后编译链�
 这里会尝试在向量化执行的基础上实现llvm codegen的优化，可能需要两周的空闲时间（llvm本身比较重），大概月底完成。
 
 ## References
-https://www.postgresql.org/message-id/flat/20161206034955.bh33paeralxbtluv%40alap3.anarazel.de
-https://databricks.com/blog/2016/05/23/apache-spark-as-a-compiler-joining-a-billion-rows-per-second-on-a-laptop.html
-https://www.vldb.org/pvldb/vol4/p539-neumann.pdf?spm=ata.13261165.0.0.475167b0QoQE5p&file=p539-neumann.pdf
-http://www.hyper-db.com/
-https://dzone.com/articles/how-we-implement-10x-faster-expression-evaluation
-https://www.cockroachlabs.com/blog/how-we-built-a-vectorized-sql-engine/#
+
+1. https://www.postgresql.org/message-id/flat/20161206034955.bh33paeralxbtluv%40alap3.anarazel.de
+2. https://databricks.com/blog/2016/05/23/apache-spark-as-a-compiler-joining-a-billion-rows-per-second-on-a-laptop.html
+3. https://www.vldb.org/pvldb/vol4/p539-neumann.pdf?spm=ata.13261165.0.0.475167b0QoQE5p&file=p539-neumann.pdf
+4. http://www.hyper-db.com/
+5. https://dzone.com/articles/how-we-implement-10x-faster-expression-evaluation
+6. https://www.cockroachlabs.com/blog/how-we-built-a-vectorized-sql-engine/#
