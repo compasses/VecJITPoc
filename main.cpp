@@ -177,8 +177,8 @@ int main() {
     userCode(expr, pData, NUM);
     userCode2(expr, pData, NUM);
 
-    for (int i = 0; i < 1000; i++)
-        misctests(pData);
+    // for (int i = 0; i < 1000; i++)
+    //     misctests(pData);
 
     //hard code performance
     upperlimit(expr, pData, NUM);
