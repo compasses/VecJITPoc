@@ -128,10 +128,10 @@ public:
         }
         
         if (!leftRef)
-            free(leftDatums);
+            delete[] leftDatums;
         
         if (!rightRef)
-            free(rightDatums);
+            delete[] rightDatums;
         
         isRef = false;
 
@@ -187,10 +187,10 @@ public:
         }
         
         if (!leftRef)
-            free(leftDatums);
+            delete[] leftDatums;
         
         if (!rightRef)
-            free(rightDatums);
+            delete[] rightDatums;
         
         isRef = false;
 

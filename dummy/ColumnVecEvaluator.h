@@ -136,7 +136,7 @@ public:
 
     void releaseBuffer() {
         for (int i = 0; i < cols.size(); ++i)
-            delete cols[i];
+            delete[] cols[i];
         cols.clear();
     }
 
